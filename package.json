@@ -1,0 +1,32 @@
+{
+  "name": "api-vs-html",
+  "version": "1.0.0",
+  "description": "Test how to use your api with your other handlers",
+  "main": "lib/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonLab/api-vs-html.git"
+  },
+  "keywords": [
+    "api",
+    "html",
+    "hapi"
+  ],
+  "author": "SimonLab <simon@foundersandcoders.com> (https://github.com/SimonLab)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLab/api-vs-html/issues"
+  },
+  "homepage": "https://github.com/SimonLab/api-vs-html#readme",
+  "dependencies": {
+    "env2": "^2.0.6",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "hoek": "^3.0.4",
+    "vision": "^4.0.1"
+  }
+}
